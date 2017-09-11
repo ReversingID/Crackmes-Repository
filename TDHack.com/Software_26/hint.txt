@@ -1,0 +1,10 @@
+Description:
+	Cryptography and something more ;) 	
+
+Content of the task:
+	Change one character inside zadanie.com file to see "win" instead of "lose" (nothing else in the output can be changed!).
+	To get a proper password you will have to compute: a*b*c, where:
+	a = offset with changed character(hex)
+	b = changed character(hex)
+	c = character which is an replacement for the previous one(hex).
+	Finally, change what you get from hex to bin.

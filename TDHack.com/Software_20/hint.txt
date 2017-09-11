@@ -1,0 +1,5 @@
+Description:
+	16 bits
+
+Content of the task:
+	Enter magic 16-bit number and text file with password will be creted.

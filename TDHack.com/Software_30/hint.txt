@@ -1,0 +1,5 @@
+Description:
+	alternative
+
+Content of the task:
+	Greetings hacker! I've heard that you're doing quite well with computer security breaches. Few days ago I've managed to copy this file from the hard drive of a server. Unfortunately I left a lot of traces and admin appears to know that break-in took place... He has removed previous hole and changed the password. Could you help me somehow?

@@ -1,0 +1,5 @@
+Description:
+	Level is to be built on the basis of applications company Borland.
+
+Content of this task:
+	To crack this code it is required to know a little about how Borland's application works, specifically data conversion.

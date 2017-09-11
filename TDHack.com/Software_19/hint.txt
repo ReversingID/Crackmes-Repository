@@ -1,0 +1,5 @@
+Description:
+	Pieces
+
+Content of the task:
+	Find all pieces for final password and guess the number.

@@ -1,0 +1,5 @@
+Description:
+	All your base are belong to us! 	
+
+Content of the task:
+	Warning: improper attempts to break the protection may lock up your computer (restart will be required)!

@@ -1,0 +1,5 @@
+Description:
+	Hash, Hash, Hash...
+
+Content of the task:
+	You have to find proper hash and crack algorithm used to generate it.

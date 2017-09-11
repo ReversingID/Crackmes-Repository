@@ -1,0 +1,5 @@
+Description:
+	Security lock
+
+Content of the task:
+	Find the password checking procedure. Some of the antivirus software may report a virus hidden in the exe file. This file has been verified and it is same for your computer.

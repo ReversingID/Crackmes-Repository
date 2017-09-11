@@ -1,0 +1,5 @@
+Description:
+	Think a little
+
+Content of the task:
+	Packed application, generates password from what you will type and compares with its own algorithm.

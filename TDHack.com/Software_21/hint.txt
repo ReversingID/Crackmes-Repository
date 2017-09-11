@@ -1,0 +1,5 @@
+Description:
+	Register application
+
+Content of the task:
+	You have to create proper file with right credentials to register this crackme.
