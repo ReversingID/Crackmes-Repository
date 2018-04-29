@@ -1,0 +1,8 @@
+detten :: snaketunnel.zip
+DrSpliff :: drscm1.tar.gz
+geyslan :: crackme.03.32.tar.gz
+huskyhusky :: crackme.gz
+monads :: berkut.tar.gz
+pancake :: pcme0.tar.gz
+Qnix :: krypto.tar.gz
+taviso :: trace-p.zip
