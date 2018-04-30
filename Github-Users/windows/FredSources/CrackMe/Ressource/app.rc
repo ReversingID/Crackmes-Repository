@@ -1,0 +1,34 @@
+
+#include "resource.h"
+#include <commctrl.h>
+#include <windows.h>
+#include <version.h>
+
+//
+// Version Information resources
+//
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+1 VERSIONINFO
+    FILEVERSION     FILEVER
+    PRODUCTVERSION  PRODUCTVER
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VOS_NT_WINDOWS32
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040c6fbd"
+        {
+            VALUE "FileDescription", TRUE_DESCRIPTION
+            VALUE "FileVersion", STRFILEVER
+            VALUE "InternalName", TRUE_FILENAME EXTENTION
+            VALUE "LegalCopyright", "Copyright (c)  2014"
+            VALUE "OriginalFilename", TRUE_FILENAME EXTENTION
+            VALUE "ProductName", TRUE_FILENAME
+            VALUE "ProductVersion", STRPRODUCTVER
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 1036, 28605
+    }
+}

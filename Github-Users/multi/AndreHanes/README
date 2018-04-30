@@ -1,0 +1,9 @@
+CSH Packet Fall 2015 Puzzel
+
+Crack password.  Password checking is done such the closer a string is to the actual password, the longer it will take to validate
+
+So if the password is 1234 and you give it 0123 it'll invalidate quickly.
+
+If you submit 1230, it'll take longer 
+
+Use average time to crack the password

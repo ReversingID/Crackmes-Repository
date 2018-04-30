@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>LibMemoryProtection</ProjectName>
+    <ProjectGuid>{811710BB-05B4-4537-82BA-1317CCEE290E}</ProjectGuid>
+    <RootNamespace>LibMemoryProtection</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\$(Configuration)\$(Platform)\$(RootNamespace)\</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\$(Configuration)\$(Platform)\$(RootNamespace)\</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\$(Configuration)\$(Platform)\$(RootNamespace)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\$(Configuration)\$(Platform)\$(RootNamespace)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\LibTrace\Include;..\LibOS\Include;..\LibDisassemble\Include;.\Include;.\Ressource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;_DEBUG;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <AssemblyLinkResource>Ressource\app.rc;%(AssemblyLinkResource)</AssemblyLinkResource>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\LibTrace\Include;..\LibOS\Include;..\LibDisassemble\Include;.\Include;.\Ressource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;_DEBUG;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)d.exe</OutputFile>
+      <AssemblyLinkResource>Ressource\app.rc;%(AssemblyLinkResource)</AssemblyLinkResource>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Lib>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\LibTrace\Include;..\LibOS\Include;..\LibDisassemble\Include;.\Include;.\Ressource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AssemblyLinkResource>Ressource\app.rc;%(AssemblyLinkResource)</AssemblyLinkResource>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\LibTrace\Include;..\LibOS\Include;..\LibDisassemble\Include;.\Include;.\Ressource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_UNICODE;UNICODE;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AssemblyLinkResource>Ressource\app.rc;%(AssemblyLinkResource)</AssemblyLinkResource>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Lib>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MemoryProtection.h" />
+    <ClInclude Include="Include\MemoryProtection_internal.h" />
+    <ClInclude Include="Ressource\resource.h" />
+    <ClInclude Include="Ressource\version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ressource\app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MemoryProtection.cpp" />
+    <ClCompile Include="Source\MemoryProtection_internal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibDisassemble\LibDisassemble.vcxproj">
+      <Project>{d5c34a21-7218-4a08-9578-1ebb35280a42}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LibOS\LibOS.vcxproj">
+      <Project>{b401af80-2dd8-4048-9a82-428d6b372a11}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LibTrace\LibTrace.vcxproj">
+      <Project>{e2080d6e-b3f3-4d59-a7fd-654be8fa1a53}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Source\MagicFunction.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Tools\nasm.exe -X vc -O 0 -DWIN64 -f win64 %(RelativeDir)%(Filename)%(Extension) -o ..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Tools\nasm.exe -X vc -O 0 -DWIN32 -f win32 %(RelativeDir)%(Filename)%(Extension) -o ..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Tools\nasm.exe -X vc -O 0 -DWIN32 -f win32 %(RelativeDir)%(Filename)%(Extension) -o ..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Tools\nasm.exe -X vc -O 0 -DWIN64 -f win64 %(RelativeDir)%(Filename)%(Extension) -o ..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\$(Configuration)\$(Platform)\$(RootNamespace)\%(Filename).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

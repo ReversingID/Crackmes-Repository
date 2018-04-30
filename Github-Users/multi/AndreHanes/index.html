@@ -1,0 +1,52 @@
+<html>
+<body>
+<h1>CSH Password Cracking Quest 2015</h1>
+<div class=intro>
+<h2>Introduction</h2>
+<p> This is the password cracking quest introduction page. The goal of this quest is to familarize applicants with REST and python</p>
+<p>A vulnerable web application that handles authentication can be found at http://login.poop-dollah.com/login<br/>
+This page takes two parameters, username and password, via POST or GET.  Here is an example: <a href="http://login.poop-dollah.com/login?username=user&password=pass"> http://login.poop-dollah.com/login?username=user&password=pass</a>
+<br /> <br />
+
+Your job is to crack the password for your username, which should be the first letter of your first name, and your last name (so John Doe is jdoe).
+<br />
+You can do this by using a timing attack.  Try each character for a password ('a' - 'z') and see which one takes the longest.  Iterate on this procedure until you have a full password.
+<br />
+<br /><strong>Trying to brute force the password will not work</strong><br/>The password checker pauses slightly while checking each password.
+If you try to check every permutation of a password, you won't have time.  You need a way to check every character of the password independetly instead.  This makes password checking a linear operation
+rather than an exponential one.  Checking each permutation will require 26^n password, while checking each character independently is only 26n.
+<br /><br />
+Passwords are limited to lower case a - z.<br /> <br />
+A starter client may be found <a href="crack.py.txt">here</a>.  You are free to use it or make your own.  This client requires Python 3.4 to run.
+
+<h2> Sample Responses </h2>
+<p>Here is a sample response</p>
+<br/>
+<p>Invalid user and pass: http://login.poop-dollah.com/login?username=123123&password=123</p>
+<p>
+{
+status: "failure",
+time: 1
+}
+<br />
+Notice the time value in the response.  This might be useful!
+</p>
+
+<br/><br/><p>Valid user and pass: http://login.poop-dollah.com/login?username=ahanes&password=rjcfah</p>
+<p>
+{
+status: "success"
+}
+</p>
+
+<br />
+<h2>Useful Links</h2>
+<a href="https://www.python.org/about/gettingstarted/">Getting started with Python</a><br/>
+<a href="https://www.python.org/">Python Website</a><br/>
+<a href="crack.py.txt">Starter Client Download</a><br />
+<a href="http://json.org/">JSON Tutorial</a><br />
+<a href="https://en.wikipedia.org/wiki/Representational_state_transfer">Wikipedia page on REST APIs</a><br />
+
+</div>
+</body>
+</html>
