@@ -2,7 +2,7 @@
 
 Open repository for crackmes and reverse engineering.
 
-#### Disclaimer by Reversing.ID
+### Disclaimer by Reversing.ID
 
 Untuk versi Bahasa Indonesia, lihat [README.md](README.md).
 
@@ -13,7 +13,7 @@ This inisiative comes from the case of "the down of crackmes.de" where their ser
 
 In our internal, we want a nice place that can be used to refer crackmes without worrying that the place would vanish. A place for our reference. Therefore we not only preserve crackmes.de files, but also crackmes from various sources. We hope that they are not vanished but when they are, we hope our contribution can be used for the reversing community.
 
-#### What is Crackme?
+### What is Crackme?
 
 Crackme is a small program designed as an object of reverse engineering. Crackme is created by other reverser as a legal way to learn software cracking, since no IP (Intellectual Property) there. Crackme has range of difficulty level, one can be very easy and other can be very hard, depends on the protection. The crackme that feel like real-world challenge use algorithm that usually implemented in commercial software.
 
@@ -25,12 +25,12 @@ Crackme can be divided as several categories, based on characteristics or goal f
 - UnpackMe
   Do unpacking to main module of program which is compressed or encrypted by certain methods.  
 
-#### How to Download?
+### How to Download?
 
 For now you can clone the repository or download the crackme manually. We will create a download system which can be access by a script to ease this process.
 
 
-#### How to Contribute?
+### How to Contribute?
 
 This is an open project.
 

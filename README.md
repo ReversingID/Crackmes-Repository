@@ -2,9 +2,9 @@
 
 Open repository for crackmes and reverse engineering.
 
-#### Disclaimer by Reversing.ID
+### Disclaimer by Reversing.ID
 
-For english version, see [README.EN.md].(README.EN.md)
+For english version, see [README.EN.md](README.EN.md)
 
 Repository ini digunakan untuk menghimpun crackme yang beredar sehingga dapat dipergunakan dalam pembelajaran reverse engineering. Repository ini dapat diakses oleh siapa saja, baik oleh internal komunitas Reversing.ID maupun di luar komunitas.
 
@@ -12,7 +12,7 @@ Inisiatif ini didasarkan adanya kasus yang menimpa situs crackmes.de sehingga se
 
 Kami ingin di kalangan internal kami, kami dapat memiliki sebuah tempat yang bisa kami jadikan acuan untuk mendapatkan crackmes. Selain mirror dari crackmes.de, kami juga mencoba mengumpulkan crackmes dari situs lain. Kami berharap situs-situs ini tidak mengalami nasib yang sama dengan crackmes.de namun jika itu terjadi, kami berharap kontribusi yang kami lakukan dapat berguna.
 
-#### Apa itu Crackme?
+### Apa itu Crackme?
 
 Crackme adalah program kecil yang didesain atau diciptakan sebagai korban dalam reverse engineering. Crackme dibuat oleh reverser lain sebagai sebuah cara yang legal untuk melakukan software cracking karena tidak ada HAKI (Hak Atas Kekayaan Intelektual) yang ada di dalamnya. Crackme memiliki tingkat kesulitan yang berbeda, ada yang mudah dipecahkan ada pula yang susah, tergantung dari proteksi yang dilakukan. Crackme yang mendekati real-world software challenge biasanya memiliki algoritma yang serupa yang diimplementasikan dalam software komersial.
 
@@ -24,11 +24,11 @@ Crackme dapat dibagi menjadi beberapa kategori, jika melihat dari karakteristik 
 - UnpackMe
   Melakukan unpacking terhadap modul utama program yang dikompress maupun dienkrip dengan metoda tertentu.
 
-#### Bagaimana Cara Download?
+### Bagaimana Cara Download?
 
 Untuk saat ini kamu bisa melakukan clone repository, atau download secara manual. Ke depan kami akan membuat sebuah script untuk memudahkan hal ini.
 
-#### Bagaimana Cara Berkontribusi?
+### Bagaimana Cara Berkontribusi?
 
 Ini adalah projek terbuka.
 
