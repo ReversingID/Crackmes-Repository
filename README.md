@@ -1,32 +1,47 @@
 # Crackmes-Repository
 
-## Disclaimer by Reversing.ID
+Open repository for crackmes and reverse engineering.
 
-For english version, please scroll down.
+#### Disclaimer by Reversing.ID
+
+For english version, see [README.EN.md].(README.EN.md)
 
 Repository ini digunakan untuk menghimpun crackme yang beredar sehingga dapat dipergunakan dalam pembelajaran reverse engineering. Repository ini dapat diakses oleh siapa saja, baik oleh internal komunitas Reversing.ID maupun di luar komunitas.
 
-Inisiatif ini didasarkan adanya kasus yang menimpa situs crackmes.de sehingga server crackmes.de dibekukan dan lebih dari ribuan crackmes menghilang. Kepanikan sempat terjadi namun kemudian mulai banyak bertebaran situs yang menyediakan mirror crackmes tersebut.
+Inisiatif ini didasarkan adanya kasus yang menimpa situs crackmes.de sehingga server crackmes.de dibekukan dan lebih dari ribuan crackmes menghilang. Kepanikan sempat terjadi namun kemudian mulai banyak bertebaran situs yang menyediakan mirror crackmes tersebut. Inisiatif ini adalah murni sebagai wadah untuk proses pembelajaran Reverse Engineering. Reversing.ID melalui repository ini tidak mengampanyekan perbuatan ilegal sehingga penyalahgunaan repository ini bukan menjadi tanggung jawab kami.
 
 Kami ingin di kalangan internal kami, kami dapat memiliki sebuah tempat yang bisa kami jadikan acuan untuk mendapatkan crackmes. Selain mirror dari crackmes.de, kami juga mencoba mengumpulkan crackmes dari situs lain. Kami berharap situs-situs ini tidak mengalami nasib yang sama dengan crackmes.de namun jika itu terjadi, kami berharap kontribusi yang kami lakukan dapat berguna.
 
+#### Apa itu Crackme?
+
+Crackme adalah program kecil yang didesain atau diciptakan sebagai korban dalam reverse engineering. Crackme dibuat oleh reverser lain sebagai sebuah cara yang legal untuk melakukan software cracking karena tidak ada HAKI (Hak Atas Kekayaan Intelektual) yang ada di dalamnya. Crackme memiliki tingkat kesulitan yang berbeda, ada yang mudah dipecahkan ada pula yang susah, tergantung dari proteksi yang dilakukan. Crackme yang mendekati real-world software challenge biasanya memiliki algoritma yang serupa yang diimplementasikan dalam software komersial.
+
+Crackme dapat dibagi menjadi beberapa kategori, jika melihat dari karakteristik crackme atau tujuan yang ingin dicapai.
+- CrackMe
+  Menghilangkan proteksi yang ada pada program sehingga program dapat berjalan lancar tanpa adanya halangan ataupun limitasi (trial)
+- KeygenMe
+  Menciptakan sebuah program yang akan menghasilkan serial number valid dan dapat diterima oleh program.
+- UnpackMe
+  Melakukan unpacking terhadap modul utama program yang dikompress maupun dienkrip dengan metoda tertentu.
+
+#### Bagaimana Cara Download?
+
+Untuk saat ini kamu bisa melakukan clone repository, atau download secara manual. Ke depan kami akan membuat sebuah script untuk memudahkan hal ini.
+
+#### Bagaimana Cara Berkontribusi?
+
 Ini adalah projek terbuka.
 
-Apabila Kamu ingin menyumbang crackmes atau mengetahui beberapa crackmes yang tidak ada dalam daftar kami, kamu dapat memberitahu kami melalui pengurus [at] reversing.id atau melakukan pull request terhadap repository ini.
+Apabila Kamu ingin menyumbang crackmes atau mengetahui beberapa crackmes yang tidak ada dalam daftar kami, kamu dapat:
+- melakukan pull request.
+- mengirimkan email ke pengurus [at] reversing.id 
+- memberi tahu di telegram @ReversingID
+
+Kmau juga bisa melakukan review dan membuat solusi untuk crackme yang ada di sini. Untuk hal ini, kamu bisa ke repository [Solution](https://github.com/ReversingID/Crackmes-Solution)
+
 
 Akhir kata, selamat bermain.
 
 
-## Dislaimer by Reversing.ID 
-
-This repository is created to collect and preserve crackmes for educational purpose in reverse engineering field. Anyone can access this repository, either you are member of Reversing.ID community or not, this repository is always open.
-
-This inisiative comes from the case of "the down of crackmes.de" where their server is seized and more than thousands crackmes vanished. The panic (for many times) engulf the community but then some people has offer mirrors of it.
-
-In our internal, we want a nice place that can be used to refer crackmes without worrying that the place would vanish. A place for our reference. Therefore we not only preserve crackmes.de files, but also crackmes from various sources. We hope that they are not vanished but when they are, we hope our contribution can be used for the reversing community.
-
-This is an open project.
-
-You can share crackmes you have or you know if it's not in our list yet. You can mail us to pengurus [at] reversing.id or do pull request to this repository.
-
-So, happy cracking.
+Reversing.ID 
+Revealing the truth through reverse engineering.
