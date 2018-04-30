@@ -1,0 +1,7 @@
+Description:
+	High-level design
+
+Content of the task:
+	Good hint - it would be fine to use 32-bit debugger in order to find proper password.
+	Please note where inside the progrtam are final operations and conditional jumps before displaying good/bad password
+	Can't help you more - good luck 

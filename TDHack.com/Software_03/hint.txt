@@ -1,0 +1,5 @@
+Description:
+	This level requires more advanced code research.
+
+Content of the task:
+	You have to recognize exe packer used here and unpac application prior to crack it.

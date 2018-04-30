@@ -1,0 +1,5 @@
+Description:
+	It's easy for now!
+
+Content of the task:
+	This task is rather for beginners.

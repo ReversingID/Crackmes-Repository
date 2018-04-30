@@ -1,0 +1,5 @@
+Description:
+	Exe-packer has been used with this task.
+
+Content of the task:
+	You have to recognize exe packer used here and unpac application prior to crack it.

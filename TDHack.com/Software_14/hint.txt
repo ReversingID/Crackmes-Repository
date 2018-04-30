@@ -1,0 +1,5 @@
+Description:
+	CrackMe
+
+Content of the task:
+	Crack a file

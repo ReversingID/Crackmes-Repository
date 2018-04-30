@@ -1,0 +1,5 @@
+Description:
+	Crack us if you can!
+
+Content of the task:
+	Crackus

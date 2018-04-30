@@ -1,0 +1,5 @@
+Description:
+	Linux_Task_One
+
+Content of the task:
+	This is supposed to be completed on Linux. Attached file requires a string passed as an argument for program. If argument will be the correct one, program will display proper password for site

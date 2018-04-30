@@ -1,0 +1,5 @@
+Description:
+	Encryption program
+
+Content of the task:
+	Analyse the encryption algorythm and get the password for the task.

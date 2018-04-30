@@ -1,0 +1,5 @@
+Description:
+	(not) hard task
+
+Content of the task:
+	Task is not so hard, you just have to recall how to use bit operators to add digits (especially XOR) and carefully read messages displayed by program.

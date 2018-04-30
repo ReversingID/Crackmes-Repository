@@ -1,0 +1,5 @@
+Description:
+	DebugMe
+
+Content of the task:
+	Unpack the exe file and break the passwords.

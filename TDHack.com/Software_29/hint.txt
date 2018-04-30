@@ -1,0 +1,5 @@
+Description:
+	Game Over
+
+Content of the task:
+	Crack the game, 'cause I'm sure you won't be able to finish all the levels... To get the password you have to reach level 50.

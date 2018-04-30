@@ -1,0 +1,5 @@
+Description:
+	ProGram
+
+Content of the task:
+	Password inside this program

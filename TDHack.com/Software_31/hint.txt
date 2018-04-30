@@ -1,0 +1,5 @@
+Description:
+	Reverse me
+
+Content of the task:
+	Crack the file and remember that there is only one valid username/password pair!

@@ -1,0 +1,5 @@
+Description:
+	File identification
+
+Content of the task:
+	User is authorized through a proper keyfile!

@@ -1,0 +1,9 @@
+Description:
+	Not everything in file
+
+Content of the task:
+	As it is shown, not every password should be hidden in file.
+	You have to have working Internet connection to solve this task!
+
+	If you think there is a mistake in this task ... Read THIS!
+	http://www.tdhack.com/viewtopic.php?p=20#p20

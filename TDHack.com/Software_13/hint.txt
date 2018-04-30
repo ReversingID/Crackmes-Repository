@@ -1,0 +1,5 @@
+Description:
+	Application
+
+Content of the task:
+	Easy one!
