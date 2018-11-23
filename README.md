@@ -33,11 +33,12 @@ Untuk saat ini kamu bisa melakukan clone repository, atau download secara manual
 Ini adalah projek terbuka.
 
 Apabila Kamu ingin menyumbang crackmes atau mengetahui beberapa crackmes yang tidak ada dalam daftar kami, kamu dapat:
+
 - melakukan pull request.
 - mengirimkan email ke pengurus [at] reversing.id 
 - memberi tahu di telegram @ReversingID
 
-Kmau juga bisa melakukan review dan membuat solusi untuk crackme yang ada di sini. Untuk hal ini, kamu bisa ke repository [Solution](https://github.com/ReversingID/Crackmes-Solution)
+Kamu juga bisa melakukan review dan membuat solusi untuk crackme yang ada di sini. Untuk hal ini, kamu bisa ke repository [Solution](https://github.com/ReversingID/Crackmes-Solution)
 
 
 Akhir kata, selamat bermain.
