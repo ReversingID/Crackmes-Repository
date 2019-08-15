@@ -1,5 +1,5 @@
-SRC_DIR = src
-BIN_DIR = bin
+SRC_DIR = sources
+BIN_DIR = binaries
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Wshadow -pedantic -std=c11
